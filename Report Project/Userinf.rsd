@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>ASITINTERIODB</DataSourceReference>
+      <CommandText>SELECT [COMCOD]
+      ,[USRID]
+      ,[USRSNAME]
+      ,[USRNAME]
+      ,[USRDESIG]
+      ,[USRACTIVE]
+      ,[USRPASS]
+      ,[USRPASSB]
+      ,[USRRMRK]
+      ,[MAILID]
+      ,[MAILPASS]
+      ,[EMPID]
+      ,[USERROLE]
+      ,[EVENTSPANEL]
+      ,[SHRTCTMENU]
+      ,[GRPUSRID]
+      ,[IMGURL]
+      ,[SIGNURL]
+      ,[HOMEURL]
+      ,[ISAPP]
+      ,[UID]
+      ,[APPMODEL]
+      ,[APPDEVNAME]
+      ,[APPMFG]
+      ,[APPTYPE]
+      ,[APPIDIOM]
+  FROM [ASITINTERIORDB].[dbo].[USERINF]</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="COMCOD">
+        <DataField>COMCOD</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="USRID">
+        <DataField>USRID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="USRSNAME">
+        <DataField>USRSNAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="USRNAME">
+        <DataField>USRNAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="USRDESIG">
+        <DataField>USRDESIG</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="USRACTIVE">
+        <DataField>USRACTIVE</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="USRPASS">
+        <DataField>USRPASS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="USRPASSB">
+        <DataField>USRPASSB</DataField>
+        <rd:TypeName>System.Byte[]</rd:TypeName>
+      </Field>
+      <Field Name="USRRMRK">
+        <DataField>USRRMRK</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MAILID">
+        <DataField>MAILID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MAILPASS">
+        <DataField>MAILPASS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="EMPID">
+        <DataField>EMPID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="USERROLE">
+        <DataField>USERROLE</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="EVENTSPANEL">
+        <DataField>EVENTSPANEL</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="SHRTCTMENU">
+        <DataField>SHRTCTMENU</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GRPUSRID">
+        <DataField>GRPUSRID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="IMGURL">
+        <DataField>IMGURL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SIGNURL">
+        <DataField>SIGNURL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="HOMEURL">
+        <DataField>HOMEURL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ISAPP">
+        <DataField>ISAPP</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="UID">
+        <DataField>UID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="APPMODEL">
+        <DataField>APPMODEL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="APPDEVNAME">
+        <DataField>APPDEVNAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="APPMFG">
+        <DataField>APPMFG</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="APPTYPE">
+        <DataField>APPTYPE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="APPIDIOM">
+        <DataField>APPIDIOM</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

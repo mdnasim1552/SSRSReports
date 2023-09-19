@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PTLSPEDB">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=123.200.23.58\mssql2k14;Initial Catalog=PTLSPEDB</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>298337b1-6da2-4680-9184-504831db69de</DataSourceID>
+</RptDataSource>
